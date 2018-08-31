@@ -1,0 +1,35 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/app/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:majiahang/node-crawler.git"
+  },
+  "keywords": [
+    "node",
+    "crawler"
+  ],
+  "author": "Ma",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "superagent": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.6",
+    "@types/lodash": "^4.14.86",
+    "@types/node": "^8.0.53",
+    "@types/request": "^2.0.8",
+    "@types/superagent": "^3.5.6",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
