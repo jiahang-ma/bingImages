@@ -11,11 +11,11 @@ import savePath from './config/config';
 
 const imgIndex: number = 7;
 
-const logPath: string = './log';
+const logPath: string = '../../log';
 
-const logTxt: string = './log/downloadTime.txt';
+const logTxt: string = '../../log/downloadTime.txt';
 
-const picSavePath: string = './images'; // todo 后续把这些常量放到config文件下
+const picSavePath: string = '../../images'; // todo 后续把这些常量放到config文件下
 
 // 必应每日一图只有7张好坑
 
