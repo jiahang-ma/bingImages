@@ -1,0 +1,9 @@
+2018/10/16 10:17:33 [error] 4260#2920: *1 CreateFile() "D:\work\bing\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/10/16 10:24:02 [error] 4260#2920: *5 CreateFile() "D:\work\bing\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/10/16 10:24:02 [error] 4260#2920: *5 CreateFile() "D:\work\bing\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/10/16 10:30:00 [notice] 6448#8128: signal process started
+2018/10/16 10:30:09 [error] 7040#8796: *6 directory index of "D:\work\bing\images/" is forbidden, client: 127.0.0.1, server: images.shinelon.com, request: "GET / HTTP/1.1", host: "localhost:8081"
+2018/10/16 10:30:09 [error] 7040#8796: *6 CreateFile() "D:\work\bing\images/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: images.shinelon.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081"
+2018/10/16 10:30:09 [error] 7040#8796: *6 CreateFile() "D:\work\bing\images/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: images.shinelon.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081"
+2018/10/16 10:30:23 [error] 7040#8796: *6 directory index of "D:\work\bing\images/" is forbidden, client: 127.0.0.1, server: images.shinelon.com, request: "GET / HTTP/1.1", host: "localhost:8081"
+2018/10/16 10:30:54 [notice] 8108#8660: signal process started
