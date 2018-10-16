@@ -9,7 +9,6 @@
 /package-lock.json
 /node_modules
 /build
-/daemon
 /nginx/logs
 
 # IDEs and editors

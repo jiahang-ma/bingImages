@@ -14,6 +14,10 @@
 >- 在服务里面查看,如果已经有node_bing,就是添加成功了
 >- 因为nw.js只能执行app.js文件. 所以需要至少打包一次,才能使用.如果代码有更改,那么需要重新打包
 
+### 将nginx注册到windows服务
+
+>- 在项目下nginx文件夹内启动`cmd`输入 `nginx-service.exe install`
+
 ### 从windows中注销服务
 
 >- sc delete 服务名称
