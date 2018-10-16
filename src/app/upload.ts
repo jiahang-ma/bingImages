@@ -73,7 +73,7 @@ function fetchBingImages() {
                         imgData += chunk;
                     });
 
-                    res.on("end", () => {
+                    res.on("end", () => {  // todo 这里保存完图片以后需要把图片保存路径地址入库,还有图片的简介等东西一并入库
                         fs.writeFile(`${savePath}/${imgName}.jpg`, imgData, "binary", (err) => {
                             if (err) {
                                 log(`${i}-写入图片错误`);
