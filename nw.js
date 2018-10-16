@@ -1,5 +1,4 @@
 let Service = require('node-windows').Service;
-let path = require('path');
 
 let svc = new Service({
   name: 'node_bing', //服务名称

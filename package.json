@@ -19,14 +19,12 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "lodash": "^4.17.4",
     "node-windows": "^0.1.14",
     "request": "^2.83.0",
     "superagent": "^3.8.1"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.6",
-    "@types/lodash": "^4.14.86",
     "@types/node": "^8.0.53",
     "@types/request": "^2.0.8",
     "@types/superagent": "^3.5.6",
