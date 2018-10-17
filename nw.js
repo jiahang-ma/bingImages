@@ -1,4 +1,4 @@
-let projectBaseUrl = require('./build/app/config/config').projectBaseUrl
+let projectBaseUrl = require('./build/app/config/config').projectBaseUrl;
 let Service = require('node-windows').Service;
 
 
