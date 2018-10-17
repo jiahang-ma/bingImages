@@ -10,8 +10,6 @@
 /node_modules
 /build
 /nginx/logs
-/bing-gallery/node_modules
-/bing-gallery/build
 
 # IDEs and editors
 /.idea

@@ -4,7 +4,6 @@ import {FormsModule} from '@angular/forms';  // 表单基础依赖
 import {ReactiveFormsModule} from '@angular/forms'; // 响应式表单依赖
 import {RouterModule} from '@angular/router';  // 在html标签使用 RouterLink 等指令
 import {NgZorroAntdModule} from 'ng-zorro-antd'; // ng-zorro
-import {CameraComponent} from './components/camera/camera.component';
 
 // 注册ng-zorro语言包
 import {registerLocaleData} from '@angular/common';
@@ -26,7 +25,6 @@ import {ReplacePipe} from './pipes/replace.pipe';
 
 // 组件
 import {ShareComponent} from './components/share/share.component';
-import {WangEditorComponent} from './components/wang-editor/wang-editor.component';
 // 常量
 
 const components = [ShareComponent];
