@@ -21,10 +21,18 @@
     "cheerio": "^1.0.0-rc.2",
     "node-windows": "^0.1.14",
     "request": "^2.83.0",
-    "superagent": "^3.8.1"
+    "superagent": "^3.8.1",
+    "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.0",
+    "koa2-cors": "^2.0.3"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.6",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.32",
+    "@types/koa2-cors": "^2.0.1",
     "@types/node": "^8.0.53",
     "@types/request": "^2.0.8",
     "@types/superagent": "^3.5.6",
