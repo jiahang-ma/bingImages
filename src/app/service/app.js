@@ -12,10 +12,6 @@ const app = new Koa();
 module.exports = function () {
     app.use(cors({
         origin: function (ctx) {
-            if (ctx.url === '/test11111') {
-                return false;
-            }
-            // return "http://localhost:4200";
             return "*";
         },
         exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],

@@ -3,7 +3,7 @@ import * as http from "http";
 import * as request from "request";
 
 import log from '../utils/console';
-import {logPath, logTextPath, picSavePath, bingHostname} from '../config/config';
+import { logPath, logTextPath, picSavePath, bingHostname } from '../config/config';
 
 function doCheck() {
     if (!fs.existsSync(logPath)) { // 如果log文件夹不存在 那么创建它 // 检查目录会导致文件夹至少写的权限被锁死 导致后面写图片失败 所以要放到前面
@@ -44,7 +44,12 @@ function fetchBingImages() {
                 let imgUrl = data.images[0].url;
                 let imgDescription: string = data.images[0].copyright;
                 let index = imgDescription.indexOf(" (");
-                let imgName = imgDescription.substring(0, index);
+                let imgName = '';
+                if (index === -1) {
+                    imgName = imgDescription;
+                } else {
+                    imgName = imgDescription.substring(0, index);
+                }
                 log(`${i}.${imgName}`);
                 http.get(bingHostname + imgUrl, (res) => {
                     let imgData = "";
