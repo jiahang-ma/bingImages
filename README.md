@@ -23,6 +23,11 @@
 >- sc delete 服务名称
 >- 服务名称在资源管理器服务里面右键属性查看服务全名
 
+### bing每日一图前端
+
+>- bing-gallery内为angular6开发的bing美图前端部分,打包以后80端口即可访问
+>- 打包: 在bing-gallery内使用ng build --prod 即可完成打包
+
 ### 等待开发
 
 >- 将此用于打包放入docker,更简单的使用此应用

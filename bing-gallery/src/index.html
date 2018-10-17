@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PlatformWeb</title>
+  <base href="/">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    const http = new XMLHttpRequest();
+    http.open("GET", "http://192.168.1.199:8080/api/test", true);
+    http.send(null);
+    http.onreadystatechange = function () {
+      if (this.readyState === 4) {
+        window.config = {
+          hostName: '192.168.1.199'
+        };
+      }
+    }
+  </script>
+</head>
+<body>
+<kylin-root></kylin-root>
+</body>
+</html>

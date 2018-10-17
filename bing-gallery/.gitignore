@@ -6,12 +6,8 @@
 /out-tsc
 
 # dependencies
-/package-lock.json
 /node_modules
-/build
-/nginx/logs
-/bing-gallery/node_modules
-/bing-gallery/build
+package-lock.json
 
 # IDEs and editors
 /.idea
@@ -35,19 +31,10 @@
 /coverage
 /libpeerconnection.log
 npm-debug.log
+yarn-error.log
 testem.log
 /typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
-
-#images
-/images
-
-#log
-/log

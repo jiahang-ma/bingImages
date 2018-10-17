@@ -1,0 +1,11 @@
+<div class="share">
+  <div (click)="changeQrcodeDisplay($event,'block')" class="qrcode-wrapper" #qrcodeWrapper>
+    <span class="share-title">分享到微信</span><i style="font-size: 12px;float: right;" class="anticon anticon-close"
+                                             (click)="changeQrcodeDisplay($event,'none')"></i>
+    <div #qrcode class="qrcode-div"></div>
+    <p class="share-description">打开微信,使用“扫一扫”即可分享网页。</p>
+  </div>
+  <i class="anticon anticon-wechat" (click)="changeQrcodeDisplay($event,'block')"></i>
+  <i class="anticon anticon-weibo-circle" (click)="shareToSina()"></i>
+  <i class="anticon anticon-qq" (click)="shareToqqzone()"></i>
+</div>

@@ -1,0 +1,50 @@
+<div class="login-wrapper">
+  <button nz-button nzType="primary" routerLink="/previews">Previews</button>
+  <div class="login-title">棉花双减技术信息发布平台管理系统</div>
+  <section class="login-content">
+    <div class="login-content-title">用户登录</div>
+
+    <form nz-form class="login-form" [formGroup]="loginForm" (ngSubmit)="submitForm()">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="mobile">用户名</nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24">
+          <input nz-input nzSize="large" formControlName="mobile" id="mobile" autofocus>
+          <nz-form-explain *ngIf="loginForm.get('mobile').dirty && loginForm.get('mobile').hasError('required')">请输入用户名
+          </nz-form-explain>
+
+          <nz-form-explain *ngIf="loginForm.get('mobile').dirty&&loginForm.get('mobile').hasError('phoneNumber')">
+            {{loginForm.get('mobile').getError('phoneNumber').errorMsg}}
+          </nz-form-explain>
+
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="passWord">密码</nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24">
+          <input nz-input nzSize="large" type="password" id="passWord" formControlName="passWord">
+          <nz-form-explain *ngIf="loginForm.get('passWord').dirty && loginForm.get('passWord').hasError('required')">
+            请输入密码
+          </nz-form-explain>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item nz-row style="margin-bottom:8px;">
+        <nz-form-control [nzSpan]="14" [nzOffset]="6">
+          <button nz-button nzType="primary" nzSize="large" [nzLoading]="loading" class="login-button">登陆</button>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item nz-row style="margin-bottom:8px;">
+        <nz-form-control [nzSpan]="14" [nzOffset]="6">
+          <label nz-checkbox formControlName="agree">
+            <span>记住密码</span>
+          </label>
+        </nz-form-control>
+      </nz-form-item>
+
+    </form>
+  </section>
+
+</div>
+
+
