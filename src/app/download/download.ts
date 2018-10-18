@@ -3,7 +3,7 @@ import * as http from "http";
 import * as request from "request";
 
 import log from '../utils/console';
-import { logPath, logTextPath, picSavePath, bingHostname } from '../config/config';
+import {logPath, logTextPath, picSavePath, bingHostname} from '../config/config';
 
 function doCheck() {
     if (!fs.existsSync(logPath)) { // 如果log文件夹不存在 那么创建它 // 检查目录会导致文件夹至少写的权限被锁死 导致后面写图片失败 所以要放到前面
