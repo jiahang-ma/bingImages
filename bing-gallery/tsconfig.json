@@ -1,59 +1,62 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ],
-    "paths": {
-      "@shared": [
-        "src/app/shared"
-      ],
-      "@skip": [
-        "src/app/core/service/skip.service"
-      ],
-      "@token": [
-        "src/app/core/service/token.service"
-      ],
-      "@http": [
-        "src/app/core/service/http.service"
-      ],
-      "@storage": [
-        "src/app/core/service/storage.service"
-      ],
-      "@user": [
-        "src/app/core/service/user.service"
-      ],
-      "@class": [
-        "src/app/shared/class"
-      ],
-      "@validator": [
-        "src/app/shared/validators"
-      ],
-      "@core/*": [
-        "src/app/core/*"
-      ],
-      "@env": [
-        "src/environments/"
-      ],
-      "@animation": [
-        "src/app/shared/animation"
-      ],
-      "echarts": [
-        "node_modules/echarts/dist/echarts.min.js"
-      ]
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "paths": {
+            "@shared": [
+                "src/app/shared"
+            ],
+            "@skip": [
+                "src/app/core/service/skip.service"
+            ],
+            "@token": [
+                "src/app/core/service/token.service"
+            ],
+            "@http": [
+                "src/app/core/service/http.service"
+            ],
+            "@storage": [
+                "src/app/core/service/storage.service"
+            ],
+            "@user": [
+                "src/app/core/service/user.service"
+            ],
+            "@class": [
+                "src/app/shared/class"
+            ],
+            "@validator": [
+                "src/app/shared/validators"
+            ],
+            "@core/*": [
+                "src/app/core/*"
+            ],
+            "@env": [
+                "src/environments/"
+            ],
+            "@animation": [
+                "src/app/shared/animation"
+            ],
+            "echarts": [
+                "node_modules/echarts/dist/echarts.min.js"
+            ],
+            "@config": [
+                "scr/app/config/config.service"
+            ]
+        }
     }
-  }
 }
