@@ -20,7 +20,7 @@
 
 ### 从windows中注销服务
 
->- sc delete 服务名称
+>- sc delete node_bing.exe[服务名称]
 >- 服务名称在资源管理器服务里面右键属性查看服务全名
 
 ### bing每日一图前端
