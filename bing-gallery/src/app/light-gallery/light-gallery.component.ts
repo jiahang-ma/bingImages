@@ -23,7 +23,7 @@ export class LightGalleryComponent implements OnInit, AfterViewInit {
         this.http.get(this.imagePath)
             .then(res => {
                 this.images = res.data.map(i => {
-                    return {path: this.imgHostname + '/' + i, title: i};
+                    return {path: this.imgHostname + '/' + i, title: i.split('.')[0]};
                 });
                 setTimeout(() => {
                     this.lightGalleryInit();

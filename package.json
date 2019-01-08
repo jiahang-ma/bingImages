@@ -1,44 +1,45 @@
 {
-  "name": "node-crawler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./src/app/app.js",
-  "scripts": {
-    "start": "npx ts-node src/app/app.ts",
-    "serve": "tsc -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitee.com:majiahang/node-crawler.git"
-  },
-  "keywords": [
-    "node",
-    "crawler"
-  ],
-  "author": "Ma",
-  "license": "ISC",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "koa": "2.0.0",
-    "koa-bodyparser": "3.2.0",
-    "koa-router": "7.0.0",
-    "koa2-cors": "^2.0.3",
-    "mongodb": "^3.1.8",
-    "node-windows": "^0.1.14",
-    "request": "^2.83.0",
-    "superagent": "^3.8.1"
-  },
-  "devDependencies": {
-    "@types/cheerio": "^0.22.6",
-    "@types/koa": "^2.0.46",
-    "@types/koa-bodyparser": "^5.0.1",
-    "@types/koa-router": "^7.0.32",
-    "@types/koa2-cors": "^2.0.1",
-    "@types/mongodb": "^3.1.12",
-    "@types/node": "^8.0.53",
-    "@types/request": "^2.0.8",
-    "@types/superagent": "^3.5.6",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.0.1"
-  }
+    "name": "node-crawler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/app/app.js",
+    "scripts": {
+        "start": "npx ts-node src/app/app.ts",
+        "serve": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@gitee.com:majiahang/node-crawler.git"
+    },
+    "keywords": [
+        "node",
+        "crawler"
+    ],
+    "author": "Ma",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "koa2-cors": "^2.0.3",
+        "mongodb": "^3.1.8",
+        "node-windows": "^0.1.14",
+        "request": "^2.83.0",
+        "superagent": "^3.8.1",
+        "nunjucks": "2.4.3"
+    },
+    "devDependencies": {
+        "@types/cheerio": "^0.22.6",
+        "@types/koa": "^2.0.46",
+        "@types/koa-bodyparser": "^5.0.1",
+        "@types/koa-router": "^7.0.32",
+        "@types/koa2-cors": "^2.0.1",
+        "@types/mongodb": "^3.1.12",
+        "@types/node": "^8.0.53",
+        "@types/request": "^2.0.8",
+        "@types/superagent": "^3.5.6",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.0.1"
+    }
 }

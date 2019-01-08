@@ -1,12 +1,17 @@
-<h3 (click)="openLightGallery()">bing每日一图</h3>
+<header>
+    <div class="header">
+        bing每日一图
+    </div>
+</header>
 
-
-<div *ngIf="images" id="aniimated-thumbnials">
-    <a *ngFor="let i of images" class="img-item" href="{{i.path}}">
-        <img src="{{i.path}}"/>
-        <div class="shadow">{{i.title}}</div>
-    </a>
-</div>
+<section class="body">
+    <div *ngIf="images" id="aniimated-thumbnials">
+        <a *ngFor="let i of images" class="img-item" href="{{i.path}}">
+            <img src="{{i.path}}"/>
+            <div class="shadow">{{i.title}}</div>
+        </a>
+    </div>
+</section>
 
 
 
