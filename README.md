@@ -17,7 +17,7 @@
 
 ### 将nginx注册到windows服务
 
->- 在项目下nginx文件夹内启动`cmd`输入 `nginx-service.exe install`
+>- 在项目下nginx文件夹内启动`cmd`输入 `./nginx-service.exe install`
 
 ### 从windows中注销服务
 
